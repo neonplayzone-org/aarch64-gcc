@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "10.4.1 20230119")
+(!version  "10.4.1 20230126")
 (!srcdir  "../../gcc/gcc")
 (!languages 11 ada brig c cp d fortran go jit lto objc objcp)
 (!fileslist 218
@@ -34023,21 +34023,21 @@
   nil )
  (!pair  "aarch64_sls_shared_thunks_needed"
   (!type already_seen 2)
-  (!srcfileloc  "config/aarch64/aarch64.c" 23380)
+  (!srcfileloc  "config/aarch64/aarch64.c" 23395)
   nil )
  (!pair  "aarch64_sls_shared_thunks"
   (!type array 2201 nil  gc_used "30" 
    (!type already_seen 23)
   )
-  (!srcfileloc  "config/aarch64/aarch64.c" 23379)
+  (!srcfileloc  "config/aarch64/aarch64.c" 23394)
   nil )
  (!pair  "va_list_type"
   (!type already_seen 23)
-  (!srcfileloc  "config/aarch64/aarch64.c" 16399)
+  (!srcfileloc  "config/aarch64/aarch64.c" 16414)
   nil )
  (!pair  "aarch64_previous_fndecl"
   (!type already_seen 23)
-  (!srcfileloc  "config/aarch64/aarch64.c" 15386)
+  (!srcfileloc  "config/aarch64/aarch64.c" 15401)
   nil )
  (!pair  "tls_get_addr_libfunc"
   (!type already_seen 100)
