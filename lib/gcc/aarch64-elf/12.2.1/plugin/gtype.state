@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "12.2.1 20230216")
+(!version  "12.2.1 20230223")
 (!srcdir  "../../gcc/gcc")
 (!languages 10 ada c cp d fortran go jit lto objc objcp)
 (!fileslist 226 0
@@ -29880,15 +29880,15 @@
    (!type already_seen 2216)
   )
   gc_pointed_to "hash_map<tree,tree_pair_p>"
-  (!srcfileloc  "cp/pt.cc" 29964)
+  (!srcfileloc  "cp/pt.cc" 29967)
   (!fields 2 
    (!pair  "tree_pair_p"
     (!type already_seen 535)
-    (!srcfileloc  "cp/pt.cc" 29964)
+    (!srcfileloc  "cp/pt.cc" 29967)
     nil )
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "cp/pt.cc" 29964)
+    (!srcfileloc  "cp/pt.cc" 29967)
     nil )
   )
  )
@@ -31033,7 +31033,7 @@
   nil )
  (!pair  "hash_map<tree,tree_pair_p>"
   (!type already_seen 2216)
-  (!srcfileloc  "cp/pt.cc" 29964)
+  (!srcfileloc  "cp/pt.cc" 29967)
   nil )
  (!pair  "pending_template"
   (!type already_seen 2203)
@@ -35528,7 +35528,7 @@
   nil )
  (!pair  "dguide_cache"
   (!type already_seen 2217)
-  (!srcfileloc  "cp/pt.cc" 29964)
+  (!srcfileloc  "cp/pt.cc" 29967)
   (!options 
    (!option deletable string  "")
   )
